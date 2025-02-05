@@ -169,6 +169,31 @@
       max-width: 85%;
       box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.5);
     }
+
+    #tableF{
+      background-color: #1c1c1c;
+      border: 2px solid #c800ff;
+      box-shadow: 0px 4px 15px rgba(212, 0, 255, 0.6);
+      animation: fadeIn 1s ease-in;
+      /* margin-bottom: 50px; */
+      max-width: 85%;
+      margin: 5px auto 80px auto;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    #tableF th{
+      background: linear-gradient(45deg, #ea00ff, #7f00e6);
+      color: #0e0e0e;
+    }
+    .group-header-f {
+      background: rgba(238, 0, 255, 0.1);
+      border-left: 4px solid #ee00ff;
+      padding: 10px;
+      margin: 20px auto;
+      border-radius: 10px;
+      max-width: 85%;
+      box-shadow: 0px 4px 10px rgba(234, 0, 255, 0.5);
+    }
   </style>
 </head>
 
@@ -188,7 +213,7 @@
           <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
           <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
         </svg>
-        <span>Semifinal Round</span>
+        <span>Grand Final Round</span>
       </div>
 
       <div class="flex items-center gap-2">
@@ -220,6 +245,44 @@
   </div>
 
   <div class="container">
+    <div class="group-header-f">
+      <h3>Final Round</h3>
+    </div>
+    <table id="tableF" class="table table-bordered table-hover text-center">
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th>Team Name</th>
+          <th>WWCD</th>
+          <th>Placement Points</th>
+          <th>Kill Points</th>
+          <th>Total Points</th>
+          <th>Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>STRANGERS</td><td>x3</td><td>30</td><td>18</td><td>48</td><td>1<sup>st</sup></td></tr>
+        <tr><td>2</td><td>WHITE CRUST</td><td></td><td>12</td><td>24</td><td>36</td><td>2<sup>nd</sup></td></tr>
+        <tr><td>3</td><td>ORANGE BLOOD</td><td></td><td>10</td><td>22</td><td>32</td><td>3<sup>rd</sup></td></tr>
+        <tr><td>4</td><td>TEAM FATALITY</td><td></td><td>6</td><td>20</td><td>26</td><td></td></tr>
+        <tr><td>5</td><td>Team XS</td><td></td><td>10</td><td>12</td><td>22</td><td></td></tr>
+        <tr><td>6</td><td>VEER BAJRANG</td><td></td><td>7</td><td>15</td><td>22</td><td></td></tr>
+        <tr><td>7</td><td>TB ALPHA</td><td></td><td>7</td><td>7</td><td>14</td><td></td></tr>
+        <tr><td>8</td><td>NARCOS</td><td></td><td>2</td><td>10</td><td>12</td><td></td></tr>
+        <tr><td>9</td><td>TEAM 0 KILLS</td><td></td><td>5</td><td>6</td><td>11</td><td></td></tr>
+        <tr><td>10</td><td>TEAM CHOCO</td><td></td><td>4</td><td>6</td><td>10</td><td></td></tr>
+        <tr><td>11</td><td>69xGANNG</td><td></td><td>0</td><td>9</td><td>9</td><td></td></tr>
+        <tr><td>12</td><td>WRAITH</td><td></td><td>0</td><td>4</td><td>4</td><td></td></tr>
+        <tr><td>13</td><td>TEAM AXIS</td><td></td><td>3</td><td>0</td><td>3</td><td></td></tr>
+        <tr><td>14</td><td>TERA BAAP AAYA</td><td></td><td>0</td><td>2</td><td>2</td><td></td></tr>
+        <tr><td>15</td><td>THE8XTREME</td><td></td><td>0</td><td>1</td><td>1</td><td></td></tr>
+        <tr><td>16</td><td>NOPE ESPORTS</td><td></td><td>0</td><td>0</td><td>0</td><td></td></tr>
+        <tr><td>17</td><td>TEAM SOHAM</td><td></td><td>0</td><td>0</td><td>0</td><td></td></tr>
+      </tbody>
+    </table>
+
+  </div>
+  <!-- <div class="container">
     <div class="group-header-sf">
       <h3>Semi Final 2</h3>
     </div>
@@ -545,10 +608,10 @@
       </tbody>
     </table>
 
-  </div>
+  </div> -->
   
 
-  <div class="points-table">Qualifier Rounds</div>
+  <!-- <div class="points-table">Qualifier Rounds</div>
   <div class="sub-title">
     <div class="flex items-center gap-2">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffa200"
@@ -1238,7 +1301,7 @@
   
 
     
-  </div>
+  </div> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
